@@ -1,3 +1,5 @@
+# release 0.0.1
+
 print("Калькулятор покраски")
 part = input("Деталь: ")
 color = input("Цвет: ")

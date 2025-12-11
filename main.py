@@ -1,10 +1,9 @@
 # release 0.0.1
+from calculator import calculate
 
 print("Калькулятор покраски")
 part = input("Деталь: ")
 color = input("Цвет: ")
 
-# Тут нужно вызвать calculate()
-price = 10000  # Заглушка
-
+price = calculate(part, color)
 print(f"Стоимость: {price} руб.")
